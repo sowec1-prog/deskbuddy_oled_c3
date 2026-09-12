@@ -1,0 +1,20 @@
+#pragma once
+
+// ESP32-C3 SuperMini + SH1106 OLED wiring already used in your projects.
+#define OLED_SDA 8
+#define OLED_SCL 9
+#define OLED_ADDRESS 0x3C
+#define BUTTON_PIN 7
+// TTP223 OUT is HIGH while the touch pad is touched (Jog / momentary mode).
+#define BUTTON_ACTIVE_LOW false
+#define BUTTON_DEBOUNCE_MS 45
+#define BUTTON_LONG_PRESS_MS 3000
+
+// Leave blank for the first upload. The local setup page will save values
+// into ESP32 NVS; never commit personal credentials in this file.
+#define WIFI_SSID \"\"
+#define WIFI_PASSWORD \"\"
+#define OPENWEATHER_API_KEY \"\"
+#define WEATHER_CITY "Zatec"
+#define WEATHER_COUNTRY "CZ"
+#define TIMEZONE_RULE "CET-1CEST,M3.5.0,M10.5.0/3"
