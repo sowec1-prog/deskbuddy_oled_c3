@@ -3,7 +3,7 @@
 - **ESP32-C3 SuperMini** 
 - **SH1106 OLED 128×64**, I²C adresa `0x3C`
 - zapojení podle aktuálního potvrzení: `SDA → GPIO8`, `SCL → GPIO9`
-- **Touch / button **, → GPIO7
+- **Touch / Button**, → GPIO7
 
 Není to kód pro nový 7" Waveshare panel; ten zůstává v samostatném projektu `Desktop\vláčky\displej`.
 
