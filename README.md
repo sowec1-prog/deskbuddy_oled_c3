@@ -49,3 +49,5 @@ Zadej vlastní Wi‑Fi. Klíč OpenWeatherMap je volitelný; bez něj fungují o
 | tlačítko | GPIO7 → GND (interní pull-up) |
 
 Před napájením ověř popisky VCC/GND na skutečném OLED modulu. Firmware předpokládá běžné tlačítko mezi GPIO7 a GND (interní pull-up). Pokud po uploadu tlačítko hlásí stisk trvale nebo opačně, změň v `config.h.example` `BUTTON_ACTIVE_LOW` na `false`.
+
+Přidána verze s touch ttp223 každá verze má svojí složku
