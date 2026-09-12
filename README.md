@@ -1,10 +1,9 @@
 # DeskBuddy pro ESP32-C3 SuperMini
 
-Převedená a zjednodušená verze dodaného programu pro hardware, který je nyní na USB:
-
-- **ESP32-C3 SuperMini** — nalezený port `COM4`
+- **ESP32-C3 SuperMini** 
 - **SH1106 OLED 128×64**, I²C adresa `0x3C`
 - zapojení podle aktuálního potvrzení: `SDA → GPIO8`, `SCL → GPIO9`
+- **Touch / button **, → GPIO7
 
 Není to kód pro nový 7" Waveshare panel; ten zůstává v samostatném projektu `Desktop\vláčky\displej`.
 
